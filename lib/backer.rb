@@ -15,7 +15,7 @@ class Backer
             project.backer == self
         end
     end
-    
+
     def backed_projects
         projects.map do |project|
             project.project
